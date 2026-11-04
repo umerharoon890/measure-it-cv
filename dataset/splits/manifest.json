@@ -1,0 +1,16 @@
+{
+  "locked_before_capture": true,
+  "random_seed": 2026,
+  "split_rule": "Fixed assignment of 100 capture-order filenames before photography and training",
+  "counts": {
+    "train": 70,
+    "val": 20,
+    "test": 10
+  },
+  "splits_sha256": {
+    "train": "0f3bc380d118203c24806536eefa550eb54674746b6943ec6e051af8cd496e58",
+    "val": "a6406ea6413e0f534ae7d5a21582f188a2ba74d53ec1eda5b9700cf86f72ed4a",
+    "test": "e75cdc260698e3002dbcf14f3fbe514bc5af96684aa0fc2fd67bb18b4b28a734"
+  },
+  "warning": "Do not regenerate or revise splits after looking at photos, labels or model performance."
+}

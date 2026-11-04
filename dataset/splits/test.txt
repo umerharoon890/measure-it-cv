@@ -1,0 +1,10 @@
+obj_0013.png
+obj_0015.png
+obj_0028.png
+obj_0040.png
+obj_0064.png
+obj_0065.png
+obj_0071.png
+obj_0076.png
+obj_0079.png
+obj_0082.png
