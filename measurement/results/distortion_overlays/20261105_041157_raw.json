@@ -1,0 +1,12 @@
+{
+  "image": "D:\\PROJECTS\\Assessments\\measure-it-cv\\measurement\\images\\20261105_041157.jpg",
+  "status": "measured",
+  "reason": null,
+  "width_mm": 60.415,
+  "height_mm": 91.491,
+  "confidence": 0.951,
+  "reference_marker_id": 0,
+  "reference_side_mm": 40.0,
+  "undistorted": false,
+  "rotation": "none"
+}

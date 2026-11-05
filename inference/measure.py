@@ -227,9 +227,12 @@ def main():
     }
 
     area = np.count_nonzero(mask) / mask.size
+    edge_margin = 15
     border_touch = (
-        np.any(mask[0, :]) or np.any(mask[-1, :])
-        or np.any(mask[:, 0]) or np.any(mask[:, -1])
+        np.any(mask[:edge_margin, :])
+        or np.any(mask[-edge_margin:, :])
+        or np.any(mask[:, :edge_margin])
+        or np.any(mask[:, -edge_margin:])
     )
 
     if area < MIN_MASK_AREA:
@@ -237,7 +240,7 @@ def main():
     elif confidence < MIN_CONFIDENCE:
         result["reason"] = "Low mask confidence"
     elif border_touch:
-        result["reason"] = "Object touches image boundary"
+        result["reason"] = "Object too close to image boundary"
     elif reference is None:
         result["reason"] = "Reference marker not found"
     elif not reference_is_usable(reference, image.shape):

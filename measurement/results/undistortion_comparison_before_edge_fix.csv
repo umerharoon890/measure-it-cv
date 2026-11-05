@@ -1,0 +1,11 @@
+image,undistorted_status,undistorted_reason,undistorted_confidence,undistorted_width_mm,undistorted_height_mm,undistorted_width_error_mm,undistorted_height_error_mm,undistorted_mean_error_mm,undistorted_mean_percentage_error,raw_status,raw_reason,raw_confidence,raw_width_mm,raw_height_mm,raw_width_error_mm,raw_height_error_mm,raw_mean_error_mm,raw_mean_percentage_error,paired,error_reduction_mm
+20261105_041135.jpg,measured,,0.95,58.776,87.667,1.776,0.667,1.2215,1.9412,measured,,0.9497,62.249,90.983,5.249,3.983,4.616,6.8935,True,3.3945
+20261105_041139.jpg,measured,,0.9495,57.034,86.41,0.034,0.59,0.312,0.3689,measured,,0.95,59.348,87.956,2.348,0.956,1.652,2.6091,True,1.34
+20261105_041141.jpg,measured,,0.9506,58.836,89.813,1.836,2.813,2.3245,3.2272,measured,,0.9509,60.226,89.354,3.226,2.354,2.79,4.1827,True,0.4655
+20261105_041144.jpg,measured,,0.9506,60.786,91.818,3.786,4.818,4.302,6.09,measured,,0.9503,62.006,93.745,5.006,6.745,5.8755,8.2677,True,1.5735
+20261105_041149.jpg,measured,,0.9492,58.463,88.403,1.463,1.403,1.433,2.0897,measured,,0.9502,60.359,89.32,3.359,2.32,2.8395,4.2798,True,1.4065
+20261105_041152.jpg,measured,,0.9501,59.925,88.532,2.925,1.532,2.2285,3.4462,measured,,0.9499,59.871,88.029,2.871,1.029,1.95,3.1098,True,-0.2785
+20261105_041157.jpg,measured,,0.9503,57.321,86.685,0.321,0.315,0.318,0.4626,measured,,0.951,60.415,91.491,3.415,4.491,3.953,5.5766,True,3.635
+20261105_041201.jpg,measured,,0.95,59.959,88.948,2.959,1.948,2.4535,3.7152,measured,,0.9499,61.354,90.831,4.354,3.831,4.0925,6.021,True,1.639
+20261105_041331.jpg,measured,,0.9497,59.592,89.36,2.592,2.36,2.476,3.63,refused,Object touches image boundary,0.9495,,,,,,,False,
+20261105_041336.jpg,measured,,0.9487,59.581,90.584,2.581,3.584,3.0825,4.3238,measured,,0.9488,57.118,83.751,0.118,3.249,1.6835,1.9708,True,-1.399

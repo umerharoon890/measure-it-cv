@@ -1,0 +1,12 @@
+{
+  "image": "D:\\PROJECTS\\Assessments\\measure-it-cv\\measurement\\stress_images\\stress_04.jpg",
+  "status": "refused",
+  "reason": "Object too close to image boundary",
+  "width_mm": null,
+  "height_mm": null,
+  "confidence": 0.9463,
+  "reference_marker_id": 0,
+  "reference_side_mm": 40.0,
+  "undistorted": true,
+  "rotation": "none"
+}

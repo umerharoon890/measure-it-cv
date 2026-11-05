@@ -1,0 +1,28 @@
+{
+  "image": "inference\\new_images\\live_test_01.jpg",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce GTX 1050",
+  "warmup_runs": 2,
+  "measured_runs": 5,
+  "timings_ms": [
+    452.26,
+    433.682,
+    453.574,
+    419.12,
+    703.827
+  ],
+  "median_ms": 452.26,
+  "minimum_ms": 419.12,
+  "maximum_ms": 703.827,
+  "spread_ms": 284.707,
+  "target_ms": 1500.0,
+  "target_met": true,
+  "last_result": {
+    "status": "measured",
+    "reason": null,
+    "confidence": 0.9491989612579346,
+    "width_mm": 59.267,
+    "height_mm": 88.649
+  },
+  "timing_scope": "Raw JPG load, undistortion, resize, segmentation, reference detection, measurement, overlay creation. Excludes model loading and saving output files."
+}
