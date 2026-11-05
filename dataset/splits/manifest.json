@@ -1,16 +1,18 @@
 {
   "locked_before_capture": true,
   "random_seed": 2026,
-  "split_rule": "Fixed assignment of 100 capture-order filenames before photography and training",
+  "split_rule": "The original assignments were committed before image collection. After collecting 89 photographs, entries without corresponding images were removed. All remaining assignments were preserved.",
   "counts": {
-    "train": 70,
-    "val": 20,
+    "train": 60,
+    "val": 19,
     "test": 10
   },
   "splits_sha256": {
-    "train": "0f3bc380d118203c24806536eefa550eb54674746b6943ec6e051af8cd496e58",
-    "val": "a6406ea6413e0f534ae7d5a21582f188a2ba74d53ec1eda5b9700cf86f72ed4a",
-    "test": "e75cdc260698e3002dbcf14f3fbe514bc5af96684aa0fc2fd67bb18b4b28a734"
+    "train": "355d635f9ec09c3512e01404b4d0270e84c43ebf3811297ad6ca0811c85c7456",
+    "val": "35c7452e5b39ba1fa292c35996ce875ed5f3579fe50ee96fa6cb494b2ae7482d",
+    "test": "583c8cd3ec6cabf356845e9c9188de473bc30cadd2bf514047046ed123af578c"
   },
-  "warning": "Do not regenerate or revise splits after looking at photos, labels or model performance."
+  "warning": "The test images must not be used for training, tuning, or checkpoint selection.",
+  "original_planned_images": 100,
+  "final_image_count": 89
 }

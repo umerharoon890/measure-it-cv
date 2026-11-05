@@ -1,0 +1,12 @@
+{
+  "image": "D:\\PROJECTS\\Assessments\\measure-it-cv\\measurement\\stress_images\\stress_03.jpg",
+  "status": "measured",
+  "reason": null,
+  "width_mm": 59.854,
+  "height_mm": 88.965,
+  "confidence": 0.9505,
+  "reference_marker_id": 0,
+  "reference_side_mm": 40.0,
+  "undistorted": true,
+  "rotation": "none"
+}

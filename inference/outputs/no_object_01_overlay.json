@@ -1,0 +1,12 @@
+{
+  "image": "D:\\PROJECTS\\Assessments\\measure-it-cv\\inference\\new_images\\no_object_01.jpg",
+  "status": "refused",
+  "reason": "Object not found",
+  "width_mm": null,
+  "height_mm": null,
+  "confidence": 0.0,
+  "reference_marker_id": 0,
+  "reference_side_mm": 40.0,
+  "undistorted": true,
+  "rotation": "none"
+}

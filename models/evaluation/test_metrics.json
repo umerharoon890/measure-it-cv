@@ -1,0 +1,24 @@
+{
+  "test_images": 10,
+  "checkpoint_epoch": 20,
+  "mask_threshold": 0.5,
+  "mean_mask_iou": 0.9688261527336849,
+  "map_50": 1.0,
+  "map_50_95": 1.0,
+  "pixel_precision": 0.9776912089339047,
+  "pixel_recall": 0.9918587801343697,
+  "ap_by_iou_threshold": {
+    "0.50": 1.0,
+    "0.55": 1.0,
+    "0.60": 1.0,
+    "0.65": 1.0,
+    "0.70": 1.0,
+    "0.75": 1.0,
+    "0.80": 1.0,
+    "0.85": 1.0,
+    "0.90": 1.0,
+    "0.95": 1.0
+  },
+  "ap_definition": "101 point interpolated instance mask AP, one proposed object per image",
+  "precision_recall_definition": "Foreground pixel precision and recall after largest component filtering"
+}

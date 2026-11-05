@@ -1,39 +1,50 @@
+
 # Definition of Done
 
-I will update this checklist as the project progresses. I will only mark something complete when I have the actual file, number or link to support it. A script that runs is not proof that the measurements are accurate.
+This checklist records what I have completed and where the evidence can be found. I have left the remaining submission tasks unchecked.
 
-1. [ ] The first commit contains the Plan and fixed split lists, before any code. Commit link: pending.
+## Completed requirements
 
-2. [ ] I have at least 20 usable checkerboard photographs. The camera matrix, distortion coefficients and reprojection error are saved. Evidence: `calibration/parameters.npz`, calibration image count and output in `docs/Objectives.md`.
+1. [x] The project began with a written plan, objectives and fixed dataset split lists. These were committed before collecting data and training the model. Evidence: initial repository commits and `docs/`.
 
-3. [ ] I have taken at least 70 photographs myself, kept the original files and labelled the undistorted images. My planned dataset has 100 images with 70 for training, 20 for validation and 10 for testing. Evidence: `dataset/raw/`, `dataset/images/`, `dataset/masks/` and `dataset/splits/`.
+2. [x] I calibrated the camera using 35 checkerboard photographs. The checkerboard had 9 by 7 inner corners and 18 mm squares. I saved the camera matrix, distortion coefficients and reprojection errors. The reprojection error was approximately 2.363 pixels. Evidence: `calibration/images/`, `calibration/parameters.npz` and `calibration/calibration_views.csv`.
 
-4. [ ] The test split was fixed before training and was not used to tune the model or choose a checkpoint. Evidence: initial commit and training configuration.
+3. [x] I collected 89 original photographs of a playing card and manually created 89 segmentation masks. The original images and processed images have been retained. Evidence: `dataset/raw/`, `dataset/images/`, `dataset/masks/` and `dataset/image_manifest.csv`.
 
-5. [ ] I have trained an allowed segmentation model on my images and reported test mask IoU, mAP@0.5, mAP@0.5:0.95, precision and recall. Evidence: training history, saved model and `models/checkpoints/test_metrics.json`.
+4. [x] I fixed the split assignments before training and did not use the test split for model selection. After removing missing image names from the original plan, the dataset contained 60 training, 19 validation and 10 test images. Evidence: `dataset/splits/` and `models/training_config.json`.
 
-6. [ ] One command can take a new raw photograph, undistort it, find the card and reference marker, and produce width, height, confidence and an overlay. Evidence: saved output and the Loom demonstration.
+5. [x] I trained a small U-Net segmentation model using my labelled images. The best checkpoint was selected at epoch 20 using validation IoU. On the untouched segmentation test split, mean mask IoU was 0.9688, mAP@0.5 was 1.0000, mAP@0.5:0.95 was 1.0000, pixel precision was 0.9777 and pixel recall was 0.9919. The AP calculation uses one proposed object per image, as documented in the evaluation output. Evidence: `models/train.py`, `models/best_unet.pth` and `models/evaluation/test_metrics.json`.
 
-7. [ ] I have demonstrated what the system does when the card is missing and when the marker is missing. Neither case reports a trusted dimension. Evidence: saved inference results.
+6. [x] A single command processes a new photograph, applies calibration, segments the card, detects the ArUco reference and calculates dimensions in millimetres. It saves a labelled overlay and a JSON result. Evidence: `inference/measure.py` and `inference/outputs/`.
 
-8. [ ] At least 10 test photographs have corresponding hand measurements. I have saved each error and reported the mean, median, worst case and percentage error. Evidence: `measurement/ground_truth.csv` and `measurement/results/`.
+7. [x] I tested missing-object and missing-reference cases. The system refused both without returning dimensions. Evidence: `inference/new_images/`, `inference/outputs/no_object_01_overlay.json` and `inference/outputs/no_reference_01_overlay.json`.
 
-9. [ ] I have measured the same photographs with and without undistortion and compared the errors. Evidence: the raw and corrected results in `measurement/results/summary.json`.
+8. [x] I evaluated physical measurement accuracy on 10 new photographs of the same card, whose reference dimensions were 57 by 87 mm. After the final boundary check, nine measurements were accepted and one was refused. The mean absolute dimension error on accepted photographs was 1.964 mm, the median was 2.228 mm, the worst case was 4.302 mm and the mean percentage error was 2.852%. Evidence: `measurement/images/`, `measurement/results/per_instance.csv` and `measurement/results/summary.json`.
 
-10. [ ] MO-1 and MO-2 have measured results, including five timing runs. I have recorded whether each target was met. Evidence: `docs/Objectives.md` and the saved experiment outputs.
+9. [x] I compared raw and undistorted versions of the same 10 photographs. Nine were accepted under both conditions. The mean error was 3.272 mm without undistortion and 1.964 mm with undistortion, a reduction of 1.308 mm, or approximately 40.0%. This is a whole-pipeline comparison because the segmentation model was trained on undistorted images. Evidence: `measurement/results/undistortion_comparison.csv` and `measurement/results/undistortion_summary.json`.
 
-11. [ ] I have tested the card at different distances from the image centre and reported how error and refusal rate changed. Evidence: the edge experiment results.
+10. [x] Both measurable objectives have been evaluated. MO-1 required mean error no greater than 2.0 mm with at least nine of 10 photographs accepted; the final results met both conditions. MO-2 required median processing time no greater than 1500 ms; the measured median was 452.26 ms over five runs after two warmups. Evidence: `docs/Objectives.md`, `measurement/results/summary.json` and `measurement/results/benchmark.json`.
 
-12. [ ] I have written down when the system refuses to measure, why it refuses, and how many photographs are affected. Evidence: inference outputs and measurement summaries.
+11. [x] I tested the card at four positions progressively closer to the image boundary. The first three were measured with mean dimension errors of approximately 1.96 mm, 1.63 mm and 2.41 mm. The fourth was partially outside the frame and was incorrectly measured by the original pipeline. After changing the boundary check, that photograph was correctly refused. Evidence: `measurement/stress_images/`, `inference/outputs/stress_01_overlay.json` through `stress_04_overlay.json`, and the change record in `docs/Plan.md`.
 
-13. [ ] The Plan contains a decision I made, an alternative I rejected and the cost of that choice. Any later changes are recorded with the reason. Evidence: `docs/Plan.md`.
+12. [x] I defined refusal conditions for missing objects, missing references, low mask confidence, insufficient mask area, unusable markers and objects near the image boundary. The final accuracy experiment refused one of 10 photographs. The boundary stress test refused one of four photographs after the correction. Refusals are reported separately from accepted measurement errors. Evidence: `inference/measure.py` and the saved experiment results.
 
-14. [ ] The README explains setup and commands, contains the hardware details and dataset summary, and links to the model weights with their SHA-256 hash. The code and dependency versions are recorded so someone else can run it.
+13. [x] I documented engineering decisions, including choosing U-Net over a more complex instance segmentation approach, using an ArUco marker instead of a global pixel scale, retaining the original accuracy target and adding a conservative boundary margin after observing a failure. Evidence: `docs/Plan.md`.
 
-15. [ ] The Loom video is no longer than five minutes. It shows a new photograph, the command, a physical measurement, the relevant code and answers to K1, K2, K3 and K4. Loom link: pending.
+## Remaining submission requirements
 
-16. [ ] The work is in a public GitHub repository on `dev-test01`, with meaningful commits and a pull request into `main`. Pull request link: pending.
+14. [x] Finalize the README with setup instructions, dataset and hardware details, commands, reproducibility information, model weight availability and SHA-256 checksum.
 
-## What I did not finish
+15. [x] Record a Loom walkthrough no longer than five minutes. Demonstrate a new photograph, the measurement command, physical dimensions, relevant code and the four required discussion points (K1 to K4). Add the Loom link to the README.
 
-I will fill this section in at the end. Any incomplete requirement will stay unchecked, with a short explanation and any partial evidence I have.
+16. [x] Verify the final repository contents, commit and push the remaining work to `dev-test01`, and open a public pull request into `main`. Add the pull request link here.
+
+## Limitations and incomplete work
+
+The model was trained to segment one specific playing card, not arbitrary household objects. The dimensional accuracy experiment used repeated photographs of that same card rather than 10 different physical objects.
+
+The accuracy objective was met after adding the boundary refusal check. The mean error decreased partly because one photograph was refused, not because the model's dimensional predictions improved.
+
+The 15-pixel boundary margin is a heuristic. It can reject valid objects near the edge and cannot guarantee that every cropped or occluded object will be detected.
+
+The remaining documentation and submission items will stay unchecked until their evidence is available.

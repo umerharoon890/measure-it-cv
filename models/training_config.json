@@ -1,0 +1,16 @@
+{
+  "architecture": "UNet",
+  "seed": 2026,
+  "max_epochs": 35,
+  "batch_size": 2,
+  "learning_rate": 0.0003,
+  "patience": 8,
+  "image_width": 288,
+  "image_height": 384,
+  "training_images": 60,
+  "validation_images": 19,
+  "selection_metric": "validation_mask_IoU_at_0.5",
+  "device": "cuda",
+  "torch_version": "2.5.1+cu118",
+  "opencv_version": "4.10.0"
+}

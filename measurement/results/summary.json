@@ -1,0 +1,19 @@
+{
+  "object": "same playing card photographed in separate trials",
+  "ground_truth_width_mm": 57.0,
+  "ground_truth_height_mm": 87.0,
+  "total_trials": 10,
+  "accepted": 9,
+  "refused": 1,
+  "acceptance_rate_percent": 90.0,
+  "mean_absolute_error_mm": 1.9639,
+  "median_absolute_error_mm": 2.2285,
+  "worst_absolute_error_mm": 4.302,
+  "mean_percentage_error": 2.8516,
+  "mean_width_absolute_error_mm": 1.9646,
+  "mean_height_absolute_error_mm": 1.9633,
+  "definition": "For each accepted trial, mean dimension error is the average of the absolute width and height errors in millimetres. Mean percentage error averages the absolute percentage errors of width and height. Summary errors are calculated only on accepted trials. Refusals are counted separately, never assigned zero error.",
+  "target_mean_absolute_error_mm_at_most": 2.0,
+  "target_accepted_at_least": 9,
+  "target_met": true
+}

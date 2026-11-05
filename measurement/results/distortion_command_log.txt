@@ -1,0 +1,176 @@
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041135.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041135_undistorted.jpg
+Status: measured
+Width: 58.78 mm
+Height: 87.67 mm
+Mask confidence: 0.9500
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041135_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041135_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041135.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041135_raw.jpg --skip-undistortion
+Status: measured
+Width: 62.25 mm
+Height: 90.98 mm
+Mask confidence: 0.9497
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041135_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041135_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041139.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041139_undistorted.jpg
+Status: measured
+Width: 57.03 mm
+Height: 86.41 mm
+Mask confidence: 0.9495
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041139_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041139_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041139.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041139_raw.jpg --skip-undistortion
+Status: measured
+Width: 59.35 mm
+Height: 87.96 mm
+Mask confidence: 0.9500
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041139_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041139_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041141.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041141_undistorted.jpg
+Status: measured
+Width: 58.84 mm
+Height: 89.81 mm
+Mask confidence: 0.9506
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041141_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041141_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041141.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041141_raw.jpg --skip-undistortion
+Status: measured
+Width: 60.23 mm
+Height: 89.35 mm
+Mask confidence: 0.9509
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041141_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041141_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041144.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041144_undistorted.jpg
+Status: measured
+Width: 60.79 mm
+Height: 91.82 mm
+Mask confidence: 0.9506
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041144_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041144_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041144.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041144_raw.jpg --skip-undistortion
+Status: measured
+Width: 62.01 mm
+Height: 93.75 mm
+Mask confidence: 0.9503
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041144_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041144_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041149.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041149_undistorted.jpg
+Status: measured
+Width: 58.46 mm
+Height: 88.40 mm
+Mask confidence: 0.9492
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041149_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041149_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041149.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041149_raw.jpg --skip-undistortion
+Status: measured
+Width: 60.36 mm
+Height: 89.32 mm
+Mask confidence: 0.9502
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041149_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041149_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041152.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041152_undistorted.jpg
+Status: measured
+Width: 59.92 mm
+Height: 88.53 mm
+Mask confidence: 0.9501
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041152_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041152_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041152.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041152_raw.jpg --skip-undistortion
+Status: measured
+Width: 59.87 mm
+Height: 88.03 mm
+Mask confidence: 0.9499
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041152_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041152_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041157.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041157_undistorted.jpg
+Status: measured
+Width: 57.32 mm
+Height: 86.69 mm
+Mask confidence: 0.9503
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041157_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041157_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041157.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041157_raw.jpg --skip-undistortion
+Status: measured
+Width: 60.41 mm
+Height: 91.49 mm
+Mask confidence: 0.9510
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041157_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041157_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041201.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041201_undistorted.jpg
+Status: measured
+Width: 59.96 mm
+Height: 88.95 mm
+Mask confidence: 0.9500
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041201_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041201_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041201.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041201_raw.jpg --skip-undistortion
+Status: measured
+Width: 61.35 mm
+Height: 90.83 mm
+Mask confidence: 0.9499
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041201_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041201_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041331.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041331_undistorted.jpg
+Status: refused
+Reason: Object too close to image boundary
+Mask confidence: 0.9497
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041331_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041331_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041331.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041331_raw.jpg --skip-undistortion
+Status: refused
+Reason: Object too close to image boundary
+Mask confidence: 0.9495
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041331_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041331_raw.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041336.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041336_undistorted.jpg
+Status: measured
+Width: 59.58 mm
+Height: 90.58 mm
+Mask confidence: 0.9487
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041336_undistorted.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041336_undistorted.json
+
+
+Command: D:\PROJECTS\Assessments\measure-it-cv\.venv\Scripts\python.exe D:\PROJECTS\Assessments\measure-it-cv\inference\measure.py --image D:\PROJECTS\Assessments\measure-it-cv\measurement\images\20261105_041336.jpg --output D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041336_raw.jpg --skip-undistortion
+Status: measured
+Width: 57.12 mm
+Height: 83.75 mm
+Mask confidence: 0.9488
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041336_raw.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\distortion_overlays\20261105_041336_raw.json

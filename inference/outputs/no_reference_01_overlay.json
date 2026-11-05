@@ -1,0 +1,12 @@
+{
+  "image": "D:\\PROJECTS\\Assessments\\measure-it-cv\\inference\\new_images\\no_reference_01.jpg",
+  "status": "refused",
+  "reason": "Reference marker not found",
+  "width_mm": null,
+  "height_mm": null,
+  "confidence": 0.9478,
+  "reference_marker_id": 0,
+  "reference_side_mm": 40.0,
+  "undistorted": true,
+  "rotation": "none"
+}

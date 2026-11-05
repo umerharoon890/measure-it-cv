@@ -17,4 +17,3 @@ obj_0073.png
 obj_0075.png
 obj_0078.png
 obj_0086.png
-obj_0098.png

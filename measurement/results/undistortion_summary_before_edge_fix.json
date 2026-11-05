@@ -1,0 +1,29 @@
+{
+  "object": "one playing card, photographed in separate trials",
+  "ground_truth_mm": {
+    "width_mm": 57.0,
+    "height_mm": 87.0
+  },
+  "total_images": 10,
+  "raw_accepted": 9,
+  "raw_refused": 1,
+  "undistorted_accepted": 10,
+  "undistorted_refused": 0,
+  "paired_accepted_images": 9,
+  "raw_paired_mean_error_mm": {
+    "mean": 3.2724,
+    "median": 2.8395,
+    "worst": 5.8755
+  },
+  "undistorted_paired_mean_error_mm": {
+    "mean": 1.9639,
+    "median": 2.2285,
+    "worst": 4.302
+  },
+  "paired_error_reduction_mm": {
+    "mean": 1.3085,
+    "median": 1.4065,
+    "worst": 3.635
+  },
+  "comparison_note": "Positive error reduction means undistortion reduced error. Errors are compared only on images accepted in both modes. Refusals are counted separately. The model was trained on undistorted images, so this comparison reflects the complete pipeline and does not isolate lens geometry alone."
+}

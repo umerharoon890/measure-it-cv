@@ -1,0 +1,78 @@
+Image 1: 20261105_041135.jpg
+Status: measured
+Width: 58.78 mm
+Height: 87.67 mm
+Mask confidence: 0.9500
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041135_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041135_overlay.json
+
+Image 2: 20261105_041139.jpg
+Status: measured
+Width: 57.03 mm
+Height: 86.41 mm
+Mask confidence: 0.9495
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041139_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041139_overlay.json
+
+Image 3: 20261105_041141.jpg
+Status: measured
+Width: 58.84 mm
+Height: 89.81 mm
+Mask confidence: 0.9506
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041141_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041141_overlay.json
+
+Image 4: 20261105_041144.jpg
+Status: measured
+Width: 60.79 mm
+Height: 91.82 mm
+Mask confidence: 0.9506
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041144_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041144_overlay.json
+
+Image 5: 20261105_041149.jpg
+Status: measured
+Width: 58.46 mm
+Height: 88.40 mm
+Mask confidence: 0.9492
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041149_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041149_overlay.json
+
+Image 6: 20261105_041152.jpg
+Status: measured
+Width: 59.92 mm
+Height: 88.53 mm
+Mask confidence: 0.9501
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041152_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041152_overlay.json
+
+Image 7: 20261105_041157.jpg
+Status: measured
+Width: 57.32 mm
+Height: 86.69 mm
+Mask confidence: 0.9503
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041157_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041157_overlay.json
+
+Image 8: 20261105_041201.jpg
+Status: measured
+Width: 59.96 mm
+Height: 88.95 mm
+Mask confidence: 0.9500
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041201_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041201_overlay.json
+
+Image 9: 20261105_041331.jpg
+Status: refused
+Reason: Object too close to image boundary
+Mask confidence: 0.9497
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041331_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041331_overlay.json
+
+Image 10: 20261105_041336.jpg
+Status: measured
+Width: 59.58 mm
+Height: 90.58 mm
+Mask confidence: 0.9487
+Overlay: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041336_overlay.jpg
+Result: D:\PROJECTS\Assessments\measure-it-cv\measurement\results\overlays\20261105_041336_overlay.json
