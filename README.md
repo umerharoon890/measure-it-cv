@@ -187,6 +187,12 @@ This model was trained on one specific card and should not be expected to segmen
 
 The initial plan, actual changes, original targets and final completion checklist are documented in [`docs/Plan.md`](docs/Plan.md), [`docs/Objectives.md`](docs/Objectives.md) and [`docs/Definition_of_Done.md`](docs/Definition_of_Done.md).
 
+
 ## Walkthrough and pull request
 
-The required walkthrough recording and the pull request from `dev-test01` into `main` will be linked here after they are created.
+I recorded a walkthrough demonstrating the measurement pipeline, physical reference, pixel-to-millimetre conversion, undistortion results, engineering decisions and failure handling.
+
+[Loom walkthrough](https://www.loom.com/share/344f13de8cfa4004946885004c4f409a)
+
+The pull request from `dev-test01` into `main` will be linked here after submission.
+

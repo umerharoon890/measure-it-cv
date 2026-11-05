@@ -33,9 +33,9 @@ This checklist records what I have completed and where the evidence can be found
 
 ## Remaining submission requirements
 
-14. [ ] Finalize the README with setup instructions, dataset and hardware details, commands, reproducibility information, model weight availability and SHA-256 checksum.
+14. [x] Finalize the README with setup instructions, dataset and hardware details, commands, reproducibility information, model weight availability and SHA-256 checksum.
 
-15. [ ] Record a Loom walkthrough no longer than five minutes. Demonstrate a new photograph, the measurement command, physical dimensions, relevant code and the four required discussion points (K1 to K4). Add the Loom link to the README.
+15. [x] Record a Loom walkthrough no longer than five minutes. Demonstrate a new photograph, the measurement command, physical dimensions, relevant code and the four required discussion points (K1 to K4). Add the Loom link to the README.
 
 16. [ ] Verify the final repository contents, commit and push the remaining work to `dev-test01`, and open a public pull request into `main`. Add the pull request link here.
 
