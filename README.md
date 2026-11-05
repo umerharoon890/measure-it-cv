@@ -194,5 +194,5 @@ I recorded a walkthrough demonstrating the measurement pipeline, physical refere
 
 [Loom walkthrough](https://www.loom.com/share/344f13de8cfa4004946885004c4f409a)
 
-The pull request from `dev-test01` into `main` will be linked here after submission.
+[Pull Request](https://github.com/umerharoon890/measure-it-cv/pull/1)
 

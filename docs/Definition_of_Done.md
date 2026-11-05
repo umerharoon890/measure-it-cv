@@ -37,7 +37,7 @@ This checklist records what I have completed and where the evidence can be found
 
 15. [x] Record a Loom walkthrough no longer than five minutes. Demonstrate a new photograph, the measurement command, physical dimensions, relevant code and the four required discussion points (K1 to K4). Add the Loom link to the README.
 
-16. [ ] Verify the final repository contents, commit and push the remaining work to `dev-test01`, and open a public pull request into `main`. Add the pull request link here.
+16. [x] Verify the final repository contents, commit and push the remaining work to `dev-test01`, and open a public pull request into `main`. Add the pull request link here.
 
 ## Limitations and incomplete work
 
